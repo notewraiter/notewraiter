@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 nav {
@@ -11,7 +15,7 @@ nav {
 }
 
 nav img {
-    height: 50px;
+    height: 20px;
     /* adjust as needed */
 }
 
@@ -31,7 +35,7 @@ nav ul li a {
 
 header {
     background-color: #ffffff;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -40,9 +44,10 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 img{
@@ -52,17 +57,12 @@ img{
 }
 
 section {
-    height: 100vh;
-    padding: 50px;
+    height: 10vh;
+    padding: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-section {
-    padding: 50px;
-    text-align: center;
 }
 
 #introduction {
@@ -79,4 +79,17 @@ section {
 
 #trial {
     background-color: #e4e4e4;
+}
+
+.top-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
+
+h2{
+    text-align: center;
+    
 }
