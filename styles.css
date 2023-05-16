@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+nav img {
+    height: 50px;
+    /* adjust as needed */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    align-items: center
+}
+
+section {
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#introduction {
+    background-color: #f9f9f9;
+}
+
+#howitworks {
+    background-color: #f2f2f2;
+}
+
+#services {
+    background-color: #ebebeb;
+}
+
+#trial {
+    background-color: #e4e4e4;
+}
