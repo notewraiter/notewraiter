@@ -1,27 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     background-color: #ffffff;
-}
-
-nav img {
-    height: 20px;
-    /* adjust as needed */
+    position: sticky;  /* Add this */
+    top: 0;  /* And this */
+    z-index: 1;  /* Optional: this ensures the navbar stays on top of all other content */
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    align-items: center; 
 }
 
 nav ul li {
@@ -44,25 +39,21 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    position: sticky;
-    bottom: 0;
     width: 100%;
     margin-top: auto;
+    font-family: "Garamond"; /* This line sets the font to a generic serif font */
 }
+
 
 img{
     height: 200px;
     width: auto;
-    align-items: center
+    align-items: center;
 }
 
 section {
-    height: 10vh;
     padding: 20px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #introduction {
@@ -85,11 +76,92 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
-    width: auto;
+    height: 70px;
+    width: 362px;
+}
+
+.nav-image {
+    height: 25px;
+    width: 151;
+    padding: 10px;
 }
 
 h2{
     text-align: center;
-    
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    background-color: #40acc9;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+
+  #photo-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.photo-container {
+    text-align: center;
+    width: calc(100% / 3 - 40px); /* Subtracting the left and right padding */
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-container p {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
 }
