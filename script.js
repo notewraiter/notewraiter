@@ -64,6 +64,7 @@ const sendToWhisperAPI = async (audioBlob) => {
   }
 };
 
+
 const sendToChatGPT = async (transcription) => {
   const SERVER_URL = '/chatgpt';
 

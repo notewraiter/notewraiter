@@ -12,7 +12,7 @@ import fs from 'fs/promises';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const API_KEY = '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';
+const API_KEY = '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';
 const app = express();
 const port = 3000;
 
