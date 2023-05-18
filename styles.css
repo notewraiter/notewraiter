@@ -54,6 +54,8 @@ img{
 section {
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #introduction {
