@@ -35,8 +35,8 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #b9e28c;
+    color: black;
     text-align: center;
     padding: 15px;
     width: 100%;
@@ -62,15 +62,16 @@ section {
 }
 
 #introduction {
-    background-color: #f9f9f9;
+    background-color: #18394e;
+    color: white;
 }
 
 #howitworks {
-    background-color: #f2f2f2;
+    background-color: #c7ccd1;
 }
 
 #services {
-    background-color: #ebebeb;
+    background-color: #40acc9;
 }
 
 #trial {
@@ -115,17 +116,19 @@ h1{
   #photo-section {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .photo-container {
-    text-align: center;
-    width: calc(100% / 3 - 40px); /* Subtracting the left and right padding */
+    width: 45%; /* 50% is half the width, minus 10px for a bit of space */
+    box-sizing: border-box; /* This makes sure that padding and border are included in the element's total width and height */
+    text-align: center; /* Center the text within the element */
 }
 
+
 .photo-container img {
-    width: 100%;
-    height: auto;
+    max-width: 100%; /* This means the image can be as wide as its container but no wider */
+    height: auto; /* This keeps the image's aspect ratio (its width-to-height ratio) the same as it scales */
 }
 
 .photo-container p {
@@ -198,8 +201,7 @@ form textarea {
     display: flex;
     flex-direction: row; 
     align-items: center;
-    background-color: #a6f1e7;
-    padding: 20px;
+    background-color: #ffffff;
 }
 
 .top-image-container {
@@ -232,8 +234,4 @@ form textarea {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-}
-
-#introduction {
-    background-color: #eaf2f8;
 }
