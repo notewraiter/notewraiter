@@ -61,20 +61,20 @@ section {
     padding: 20px;
 }
 
-#introduction {
+#introduction .section-content {
     background-color: #18394e;
     color: white;
 }
 
-#howitworks {
+#howitworks .section-content {
     background-color: #c7ccd1;
 }
 
-#services {
+#services .section-content {
     background-color: #40acc9;
 }
 
-#trial {
+#trial .section-content {
     background-color: #e4e4e4;
 }
 
@@ -88,7 +88,7 @@ section {
 
 .nav-image {
     height: 25px;
-    width: 151;
+    width: 151px;
     padding: 10px;
 }
 
@@ -127,9 +127,11 @@ h1{
 
 
 .photo-container img {
-    max-width: 100%; /* This means the image can be as wide as its container but no wider */
-    height: auto; /* This keeps the image's aspect ratio (its width-to-height ratio) the same as it scales */
+    width: 200px; /* Or any other fixed size */
+    height: 200px; /* Or any other fixed size */
+    object-fit: cover; /* This property ensures the aspect ratio of the image is maintained */
 }
+
 
 .photo-container p {
     margin-top: 10px;
