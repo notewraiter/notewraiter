@@ -52,10 +52,13 @@ img{
 }
 
 section {
-    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+.section-content {
+    padding: 20px;
 }
 
 #introduction {
@@ -190,3 +193,47 @@ form textarea {
     border-radius: 5px;
     box-sizing: border-box; /* Add this line */
   }
+
+  #top-section {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    background-color: #a6f1e7;
+    padding: 20px;
+}
+
+.top-image-container {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.top-text-container {
+    flex: 1;
+    text-align: left;
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.top-links li {
+    margin-right: 10px;
+}
+
+.top-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#introduction {
+    background-color: #eaf2f8;
+}
