@@ -213,7 +213,7 @@ form textarea {
 
 .top-text-container {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .top-image {
@@ -226,6 +226,7 @@ form textarea {
     padding: 0;
     margin-top: 20px;
     display: flex;
+    text-align: center;
 }
 
 .top-links li {
@@ -241,4 +242,10 @@ form textarea {
 section.flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.TitleofSite {
+    font-size: 2em; /* Or any other size */
+    letter-spacing: 2px; /* Increase the space between characters */
+    line-height: 1.5; /* Increase the space between lines of text */
 }
