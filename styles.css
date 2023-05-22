@@ -309,10 +309,10 @@ p {
 
 @font-face {
     font-family: 'SalmaAlfa';
-    src: url('SalmaAlfa.otf') format('otf'),
+    src: url('SalmaAlfa.otf') format('opentype'),
   }
 
   @font-face {
     font-family: 'SalmaAlfaItalic';
-    src: url('SalmaAlfaItalic.otf') format('otf'),
+    src: url('SalmaAlfaItalic.otf') format('opentype'),
   }
