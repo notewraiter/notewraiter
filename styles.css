@@ -88,7 +88,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 66.6vw; /* This will set the image width to roughly 2/3 of the viewport's width */
+    width: 33.3vw; /* This will set the image width to roughly 2/3 of the viewport's width */
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
     max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
@@ -227,11 +227,11 @@ form textarea {
     flex-direction: row; 
     align-items: center;
     background-color: #ffffff;
-    padding: 50px 10px 50px 20px ;
+    padding: 20% 0 ;
 }
 
 .top-image-container {
-    flex: 1;
+    flex: 1 0 auto;
     margin-right: 20px; 
 }
 
@@ -253,7 +253,9 @@ p {
 
 .top-text-container .top-links {
     display: flex;
+    flex: 1 0 auto;
     justify-content: center;
+    max-width: 100%;
     gap: 10px; /* This is a shorthand for row-gap and column-gap, and it should provide the spacing you need between the items */
 }
 
