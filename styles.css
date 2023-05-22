@@ -215,23 +215,6 @@ form textarea {
     margin-right: 20px; 
 }
 
-.top-text-container .top-links li {
-    display: inline;
-    padding: 0 15px; /* Adjust this value to change the spacing between the list items*/
-    text-align: center;
-    margin-top: 20px;
-}
-
-.top-links li {
-    margin-right: 10px;
-}
-
-.top-links li a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
 section.flex-row {
     display: flex;
     flex-direction: row;
@@ -245,4 +228,67 @@ section.flex-row {
 
 p {
     font-size: 1.2em; /* relative to the parent element's font size */
+}
+
+.top-text-container .top-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* This is a shorthand for row-gap and column-gap, and it should provide the spacing you need between the items */
+}
+
+.top-text-container .top-links li {
+    list-style: none; /* This will remove bullet points from the list */
+}
+
+.top-text-container .top-links li a {
+    padding: 10px 20px; /* Adjusts size of the button around text */
+    display: inline-block; /* Allows padding to function properly */
+    background-color: #007BFF; /* Change this to the color you want */
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.2s ease; /* Makes color transition smooth when hovering */
+}
+
+.top-text-container .top-links li a:hover {
+    background-color: #0056b3; /* Change this to the color you want when hovering */
+}
+
+
+
+
+/* Individual header button colors */
+.top-text-container .top-links li.introduction-button a {
+    background-color: #18394e; /* Example color */
+    color: white
+}
+
+.top-text-container .top-links li.howitworks-button a {
+    background-color: #c7ccd1; /* Example color */
+}
+
+.top-text-container .top-links li.services-button a {
+    background-color: #40acc9; /* Example color */
+}
+
+.top-text-container .top-links li.trial-button a {
+    background-color: #b9e28c; /* Example color */
+}
+
+.top-text-container .top-links li.introduction-button a:hover {
+    background-color: #b9e28c; /* Example color */
+    color: black
+}
+
+.top-text-container .top-links li.howitworks-button a:hover {
+    background-color: #40acc9; /* Example color */
+}
+
+.top-text-container .top-links li.services-button a:hover {
+    background-color: #c7ccd1; /* Example color */
+}
+
+.top-text-container .top-links li.trial-button a:hover {
+    background-color: #18394e; /* Example color */
+    color: white
 }
