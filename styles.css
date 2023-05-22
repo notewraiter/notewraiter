@@ -17,10 +17,13 @@ nav ul {
     display: flex;
     list-style: none;
     align-items: center; 
+    text-align: center;
 }
 
 nav ul li {
     margin-left: 20px;
+    text-align: center;
+    padding: 5px 5px;
 }
 
 nav ul li a {
@@ -59,9 +62,9 @@ section {
 }
 
 .section-content {
-    margin 0 auto;
-    padding-left: 15%;
-    padding-right: 10%
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 15%
 }
 
 #introduction .section-content {
@@ -115,7 +118,7 @@ h2{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     font-family: 'SalmaAlfaItalic', sans-serif;
 }
 
@@ -123,13 +126,14 @@ h1{
     background-color: #40acc9;
     border: none;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 10px 10px;
     cursor: pointer;
+    white-space: nowrap;
   }
 
   #photo-section {
@@ -204,7 +208,7 @@ form input[type="submit"]:hover {
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-blocc;
+    display: inline-block;
     font-size: 16px;
     margin: 20px 20px;
     cursor: pointer;
@@ -238,6 +242,8 @@ section.flex-row {
 
 .TitleofSite {
     font-size: 2.5em; /* Or any other size */
+    text-align: left;
+    margin: 0;
 }
 
 p {
