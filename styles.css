@@ -21,9 +21,10 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     padding: 5px 5px;
+    white-space: nowrap
 }
 
 nav ul li a {
@@ -87,7 +88,7 @@ section {
 .top-image {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     width: 45vw; 
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
@@ -225,15 +226,14 @@ form textarea {
   #top-section {
     display: flex;
     flex-direction: row; 
-    justify-content: center;
-    align-items: left;
+    justify-content: left;
+    align-items: center;
     background-color: #ffffff;
     padding: 10% 0 ;
 }
 
 .top-image-container {
     flex: 1 0 auto;
-    margin-right: 20px; 
 }
 
 section.flex-row {
@@ -254,7 +254,7 @@ p {
 
 .top-text-container .top-links {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex: 1 0 auto;
     align-items: flex-start;
     max-width: 100%;
@@ -274,6 +274,7 @@ p {
     color: #000;
     font-weight: bold;
     font-size: 0.6em;
+    justify-content: left;
     transition: background-color 0.2s ease; /* Makes color transition smooth when hovering */
 }
 
