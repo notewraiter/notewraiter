@@ -21,9 +21,10 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     padding: 5px 5px;
+    white-space: nowrap
 }
 
 nav ul li a {
@@ -87,8 +88,8 @@ section {
 .top-image {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 66.6vw; /* This will set the image width to roughly 2/3 of the viewport's width */
+    margin-right: 0;
+    width: 45vw; 
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
     max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
@@ -98,7 +99,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 66.6vw; /* This will set the image width to roughly 2/3 of the viewport's width */
+    width: 90w; 
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
     max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
@@ -225,14 +226,14 @@ form textarea {
   #top-section {
     display: flex;
     flex-direction: row; 
+    justify-content: left;
     align-items: center;
     background-color: #ffffff;
-    padding: 50px 10px 50px 20px ;
+    padding: 10% 0 ;
 }
 
 .top-image-container {
-    flex: 1;
-    margin-right: 20px; 
+    flex: 1 0 auto;
 }
 
 section.flex-row {
@@ -241,19 +242,22 @@ section.flex-row {
 }
 
 .TitleofSite {
-    font-size: 2.5em; /* Or any other size */
+    font-size: 1.5em;
     text-align: left;
     margin: 0;
 }
 
 p {
-    font-size: 1.2em; /* relative to the parent element's font size */
+    font-size: 1.3em; /* relative to the parent element's font size */
     font-family: 'SalmaAlfa', sans-serif;
 }
 
 .top-text-container .top-links {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    flex: 1 0 auto;
+    align-items: flex-start;
+    max-width: 100%;
     gap: 10px; /* This is a shorthand for row-gap and column-gap, and it should provide the spacing you need between the items */
 }
 
@@ -262,12 +266,15 @@ p {
 }
 
 .top-text-container .top-links li a {
-    padding: 10px 20px; /* Adjusts size of the button around text */
+    padding: 5px 10px; /* Adjusts size of the button around text */
+    white-space: nowrap;
     display: inline-block; /* Allows padding to function properly */
     background-color: #007BFF; /* Change this to the color you want */
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    font-size: 0.6em;
+    justify-content: left;
     transition: background-color 0.2s ease; /* Makes color transition smooth when hovering */
 }
 
