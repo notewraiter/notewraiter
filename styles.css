@@ -67,7 +67,7 @@ section {
 }
 
 #howitworks .section-content {
-    background-color: #c7ccd1;
+    background-color: #fff;
 }
 
 #services .section-content {
@@ -215,6 +215,11 @@ form textarea {
     margin-right: 20px; 
 }
 
+.howitworks-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
 section.flex-row {
     display: flex;
     flex-direction: row;
@@ -223,11 +228,12 @@ section.flex-row {
 .TitleofSite {
     font-size: 3em; /* Or any other size */
     letter-spacing: 1px; /* Increase the space between characters */
-    line-height: 1.3; /* Increase the space between lines of text */
+    line-height: 1.1; /* Increase the space between lines of text */
+    font-family: 'SalmaAlfa', sans-serif;
 }
 
 p {
-    font-size: 1.2em; /* relative to the parent element's font size */
+    font-size: 1.3em; /* relative to the parent element's font size */
 }
 
 .top-text-container .top-links {
@@ -276,19 +282,24 @@ p {
 }
 
 .top-text-container .top-links li.introduction-button a:hover {
-    background-color: #b9e28c; /* Example color */
-    color: black
-}
-
-.top-text-container .top-links li.howitworks-button a:hover {
     background-color: #40acc9; /* Example color */
 }
 
-.top-text-container .top-links li.services-button a:hover {
-    background-color: #c7ccd1; /* Example color */
+.top-text-container .top-links li.howitworks-button a:hover {
+    background-color: #b9e28c; /* Example color */
 }
 
-.top-text-container .top-links li.trial-button a:hover {
+.top-text-container .top-links li.services-button a:hover {
     background-color: #18394e; /* Example color */
     color: white
 }
+
+.top-text-container .top-links li.trial-button a:hover {
+    background-color: #c7ccd1; /* Example color */
+}
+
+
+@font-face {
+    font-family: 'SalmaAlfa';
+    src: url('SalmaSans.otf') format('otf');
+  }
