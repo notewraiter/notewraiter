@@ -89,7 +89,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: 0;
-    width: 45vw; 
+    width: 40vw; 
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
     max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
@@ -99,7 +99,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90w; 
+    width: 100%; 
     height: auto; /* This will maintain the image's aspect ratio */
     display: block; /* This will remove any unwanted white space around the image */
     max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
@@ -258,6 +258,7 @@ p {
     flex: 1 0 auto;
     align-items: flex-start;
     max-width: 100%;
+    margin-right: 25px;
     gap: 10px; /* This is a shorthand for row-gap and column-gap, and it should provide the spacing you need between the items */
 }
 
