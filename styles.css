@@ -213,7 +213,7 @@ form textarea {
     box-sizing: border-box; /* Add this line */
   }
 
-  #header {
+  #header1 {
     width:100%;
     height: auto;
     box-sizing: border-box;
