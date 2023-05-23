@@ -56,7 +56,7 @@ img{
 }
 
 section {
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 100%
@@ -85,16 +85,6 @@ section {
     background-color: #e4e4e4;
 }
 
-.top-image {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    width: 40vw; 
-    height: auto; /* This will maintain the image's aspect ratio */
-    display: block; /* This will remove any unwanted white space around the image */
-    max-width: 100%; /* This will ensure the image doesn't overflow its parent container */
-    }
-
 .howitworks-image {
     display: block;
     margin-left: auto;
@@ -113,7 +103,7 @@ section {
 }
 
 h2{
-    text-align: left;
+    text-align: center;
     font-size: 1.75em;
     font-style: italic;
 }
@@ -223,17 +213,14 @@ form textarea {
     box-sizing: border-box; /* Add this line */
   }
 
-  #top-section {
-    display: flex;
-    flex-direction: row; 
-    justify-content: left;
+  #header {
+    width:100%;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    padding: 10% 0 ;
-}
-
-.top-image-container {
-    flex: 1 0 auto;
+    padding: 20% 0;
 }
 
 section.flex-row {
