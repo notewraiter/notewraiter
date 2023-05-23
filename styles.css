@@ -66,7 +66,9 @@ section {
 .section-content {
     margin: 0 auto;
     padding-left: 10%;
-    padding-right: 15%
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #introduction .section-content {
